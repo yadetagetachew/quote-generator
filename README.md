@@ -1,1 +1,1 @@
-# bootstrap-boilerplate
+# Quote generator
