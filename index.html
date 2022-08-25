@@ -14,13 +14,25 @@
      <!-- JavaScript -->
      <script src="/js/script.js" defer></script>
 
-    <title>Boilerplate</title>
+     <!-- Google fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
+
+    <title>Quote Generator</title>
   </head>
   <body>
-    <div class="display">
-      <p id="quote">Need some Motivation?</p>
+
+    <div class="display-wrap">
+      <div class="display">
+        <div id="quote"></div>
+          <div id="author"></div>
+          <div class="button mt-5">
+            <button id="generator-button" type="button" class="btn btn-outline-dark">Need More Motivation?</button>
+          </div>
+      </div>
     </div>
-    <button id="generator-button">Click me</button>
+   
 
     <!-- Optional JavaScript; choose one of the two! -->
 

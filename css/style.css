@@ -1,0 +1,29 @@
+body{
+    background-image: url(/img/water.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    font-family: 'Aboreto', cursive;
+    font-weight: 1000;
+    font-size: 20px;
+}
+
+.display{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(210, 239, 245);
+    width: 40rem;
+    height: 20rem;
+    padding: 10%;
+    border-radius: 1%;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.9), 5px 4px 8px rgba(0, 0, 0, 0.9);
+}
+.display-wrap{
+    height: 100vh;
+    width: auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
